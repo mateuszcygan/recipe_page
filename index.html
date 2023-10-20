@@ -33,6 +33,18 @@ https://www.figma.com/file/2jVBTSKeCYF0dIN6fi0stX/recipe-blog-challenge?type=des
       rel="stylesheet"
     />
     <!-- Fonts end -->
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b3902999cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="/fontawesome/fontawesome-free-6.4.2-web/js/all.js"
+    ></script>
+
+    <!-- START style for Font Awesome icon spoon -->
     <title class="title">Cheesecake Recipe</title>
   </head>
   <body>
@@ -43,25 +55,51 @@ https://www.figma.com/file/2jVBTSKeCYF0dIN6fi0stX/recipe-blog-challenge?type=des
       decadence. For the best results, bake in a water bath.
     </p>
     <img src="photo1.png" alt="cheesecake" id="cheesecake" />
-    <h2>Ingredients</h2>
     <div id="figures">
-      <div id="yields">
-        <p>Yields</p>
-        <p>12 servings</p>
+      <div id="yields" id="first" class="grid-box">
+        <div class="wrapper">
+          <i
+            class="fa-solid fa-spoon fa-sm center"
+            id="icon"
+            style="color: #f2994a; vertical-align: middle"
+          ></i>
+        </div>
+        <div id="flex-box">
+          <p id="small-titles" style="color: #bdbdbd">Yields</p>
+          <p id="numbers" style="color: #f2994a">12 servings</p>
+        </div>
       </div>
-      <div id="prep-time">
-        <p>Prep Time</p>
-        <p>45 minutes</p>
-      </div>
-      <div id="cook-time">
-        <p>Cook time</p>
-        <p>1 hour</p>
-      </div>
-      <div id="total-time">
-        <p>Total Time</p>
-        <p>7,75 hours</p>
+      <div id="horizontal-flex">
+        <div id="first" class="grid-box">
+          <div class="wrapper">
+            <i class="fa-regular fa-clock" id="icon" style="color: #343941"></i>
+          </div>
+          <div id="flex-box">
+            <p id="threeheaders">Prep Time</p>
+            <p id="timenumbers">45 minutes</p>
+          </div>
+        </div>
+        <div id="time" class="grid-box">
+          <div class="wrapper">
+            <i class="fa-regular fa-clock" id="icon" style="color: #343941"></i>
+          </div>
+          <div id="flex-box">
+            <p id="threeheaders">Cook time</p>
+            <p id="timenumbers">1 hour</p>
+          </div>
+        </div>
+        <div id="time" class="grid-box">
+          <div class="wrapper">
+            <i class="fa-regular fa-clock" id="icon" style="color: #343941"></i>
+          </div>
+          <div id="flex-box">
+            <p id="threeheaders">Total Time</p>
+            <p id="timenumbers">7,75 hours</p>
+          </div>
+        </div>
       </div>
     </div>
+    <h2>Ingredients</h2>
     <div id="checkboxes">
       <label>Graham Cracker Crust</label>
       <ul>

@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .title {
   color: #000;
   font-family: "Playfair Display", serif;
@@ -18,5 +23,93 @@
 
 #cheesecake {
   width: 352px;
-  height: 213.83px;
+  height: 202px;
+}
+
+#flex-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  grid-area: right;
+  gap: 0;
+}
+
+#icon {
+  grid-area: left;
+  margin-right: 0.4rem;
+}
+
+.grid-box {
+  display: grid;
+  grid-template: "left right" min-content / max-content max-content;
+  align-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#small-titles {
+  color: var(--Gray-4, #bdbdbd);
+  font-family: Montserrat;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#numbers {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#yields {
+  margin-left: 0.7rem;
+  margin-top: 1.5rem;
+  width: 131px;
+  height: 26px;
+}
+
+#threeheaders {
+  color: var(--Gray-4, #bdbdbd);
+  font-family: Montserrat;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#timenumbers {
+  color: var(--Gray-1, #333);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#horizontal-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-content: center;
+  margin-top: 1.3rem;
+}
+
+#time {
+  width: 111px;
+  height: 26px;
+}
+
+#first {
+  width: 111px;
+  height: 26px;
+  margin-left: 0.7rem;
 }
