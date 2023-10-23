@@ -10,6 +10,19 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-left: 0.7rem;
+}
+
+#circle {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+
+#gap {
+  width: 3px;
+  height: 3px;
 }
 
 .title-description {
@@ -112,4 +125,41 @@
   width: 111px;
   height: 26px;
   margin-left: 0.7rem;
+}
+
+.ingredients {
+  color: var(--Gray-1, #333);
+  font-family: Playfair Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.3rem;
+  margin-left: 0.75rem;
+}
+
+.part {
+  color: var(--Gray-1, #333);
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 0.8rem;
+}
+
+#graham {
+  margin-top: 0.8rem;
+}
+
+input {
+  margin-left: 0.8rem;
+}
+
+.circles {
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  grid-template-rows: repeat(3, min-content);
+  margin-left: 0.7rem;
+  margin-top: 0.94rem;
 }
