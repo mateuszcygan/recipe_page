@@ -32,6 +32,9 @@
   font-style: italic;
   font-weight: 500;
   line-height: normal;
+  margin-left: 0.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 #cheesecake {
@@ -162,4 +165,15 @@ input {
   grid-template-rows: repeat(3, min-content);
   margin-left: 0.7rem;
   margin-top: 0.94rem;
+}
+
+#new-line::after {
+  content: "\a";
+  white-space: pre;
+}
+
+#circles-text {
+  display: grid;
+  grid-template-columns: min-content auto;
+  margin-top: 0.75rem;
 }
