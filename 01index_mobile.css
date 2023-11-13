@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: lightblue;
 }
 
 .title {
@@ -38,6 +39,9 @@
 }
 
 #cheesecake {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 352px;
   height: 202px;
 }
